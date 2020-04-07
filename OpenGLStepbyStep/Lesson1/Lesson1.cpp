@@ -15,7 +15,7 @@ void RenderScene();
 
 int main()
 {
-    std::cout << "Hello OpenGL World!\n"; 
+    std::cout << "Hello OpenGL World Lesson1!\n"; 
 
 	// step1:initialize and configure
 	glfwInit();

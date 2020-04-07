@@ -24,6 +24,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Lesson1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>Lesson1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -72,8 +73,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\shanks\OpenGLStepbyStep\OpenGL_Tutorial\OpenGL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\shanks\OpenGLStepbyStep\OpenGL_Tutorial\OpenGL\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)..\OpenGL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\OpenGL\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
