@@ -21,7 +21,7 @@ int main(int argc, char ** argv)
 	// 窗口设置
 	glutInitWindowSize(480, 320);		// 窗口尺寸
 	glutInitWindowPosition(100, 100);	// 窗口位置
-	glutCreateWindow("Tutorial 1");		// 窗口标题
+	glutCreateWindow("Tutorial 01");		// 窗口标题
 
 	// 开始渲染：执行自定义渲染逻辑
 	glutDisplayFunc(RenderFuncCB);
